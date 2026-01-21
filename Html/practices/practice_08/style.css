@@ -1,0 +1,22 @@
+table,th,td{
+    border: 3px solid white;
+    background-color: black;
+    border-radius: 12px;
+    border-style: inset;
+    color: white;
+}
+th{
+text-align: left;
+}
+#malik{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-spacing: 20px;
+}
+/* table{
+    border-collapse: collapse;
+    border-radius: 12px;
+    border: 2px solid red;
+} */

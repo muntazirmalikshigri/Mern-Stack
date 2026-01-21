@@ -1,0 +1,30 @@
+h2{
+    color: #ff00ff;
+    font-family: fantasy;
+}
+h1{
+   text-align: center;
+    background-color: white;
+    color:orange;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}
+p{
+    background-color: black;
+    color: wheat;
+}
+button{
+    background-color: blue;
+    color:rgb(0, green, blue) ;
+}
+button:hover{
+    width: 100px;
+    height: 80px;
+    border: 4px solid red;
+    border-radius: 12px;
+    background-color: magenta;
+    color: red;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
