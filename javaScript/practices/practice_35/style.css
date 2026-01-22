@@ -1,0 +1,31 @@
+.red{
+    background-color: red;
+    color: white;
+}
+.yellow{
+    background-color: yellow;
+    color: white;
+}
+.dark{
+    color: darkblue;
+}
+.first{
+color: aquamarine;
+background-color: antiquewhite;
+border: 2px solid red;
+width: 70%;
+height: 50%;
+min-width: 200px;
+max-width: 700px;
+overflow: scroll;
+/* margin-top: 10%;
+width: 50%;
+margin-left: 10%;
+padding-top: 10rem; */
+/* display: flex;
+flex-wrap: wrap; */
+}
+img{
+    margin-top: 0%;
+    width: 100%;
+}
