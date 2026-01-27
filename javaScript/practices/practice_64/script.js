@@ -4,6 +4,7 @@ switch (true){
     case number<33:
         console.log("fail");
         document.write("<h2>fail</h2>");
+        alert("you are fail");
         break;
     case number>33 && number<=50:
             console.log("third class");
@@ -22,4 +23,11 @@ switch (true){
         document.write("<h2>invalid input</h2>");
         break;
 
+}
+
+let a = confirm("Do you want to print your marks?");
+if(a){
+    document.write("<h3>Your marks are: "+number+"</h3>");
+} else {
+    document.write("<h3>Your marks are hidden</h3>");
 }
