@@ -12,10 +12,28 @@ function Hello(){
         alignItems: 'center',
         marginTop: '0'
     };
+    //  function getName(){
+    //         return "Malik";
+    //     }
+
+        let name2 = 'Munna';
+        function getName(yourname){
+            return yourname;
+        }
+
+        function handclick(){
+            alert("Button Clicked");
+        }
+
+
+        
     return (
+       
         <>
-        <h1 style={headingStyle}>Hello {name}</h1>
-        <p className='test'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit fuga officia quas sit ab! Aperiam itaque ullam, eum dolores dicta placeat tempore, exercitationem aspernatur totam repudiandae nam maiores culpa porro.</p>
+        <h1>Hello {getName(name2)}</h1>
+        <button onClick={handclick}>Click Me</button>
+        <button onClick={() => alert("Hello World")}>Click Me Too</button>
+
         </>
     )
      
